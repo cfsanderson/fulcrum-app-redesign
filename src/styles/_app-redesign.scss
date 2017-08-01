@@ -1,0 +1,45 @@
+.main-headline #category-title {
+  color: white;
+  text-transform: uppercase;
+}
+
+.main-headline .headline-left {
+  width: 60vw;
+  padding-left: 45px;
+}
+
+.main-headline .headline-left h1 {
+  font-size: 0.5em;
+}
+
+.main-headline .headline-left ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  // padding: 20px;
+}
+
+.main-headline .headline-left li {
+  padding-right: 10px;
+  color: white;
+}
+
+.main-headline .headline-left > * {
+  text-align: left;
+}
+
+.main-headline .headline-left p {
+  padding-left: 0;
+}
+
+.main-headline .headline-right img {
+  float: right;
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  top: -350px;
+  left: 75px;
+}
+
+// make a branch and rip out catalog styles
